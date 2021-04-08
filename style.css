@@ -1,0 +1,270 @@
+body {
+
+	background-color: #ffeed1;
+	margin:0 auto;
+	max-width: 900px;
+	font-family: 'Work Sans', sans-serif;
+	background-size: 150px;
+	background-position: 50% 50%;
+
+	
+
+}
+
+.profile-img:hover {
+	cursor:url(img/lemon_small.png), auto;
+}
+
+
+header {
+	text-align:center;
+	padding-top:40px;
+}
+
+header .profile-img {
+	background-image: url(img/lemon-yarrut.jpg);
+	background-size: cover;
+	background-position: 50% 30%;
+	width: 900px;
+	height: 400px;
+	background-color:blue;
+	
+	margin:0 auto;
+	margin-top:40px;
+
+}
+
+
+
+header h1 {
+	
+	font-size:5rem;
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin:0;
+}
+
+.about {
+	margin-bottom:0;
+	font-family: 'Work Sans', sans-serif;
+	font-size:1.5rem;
+	color:blue;
+	font-weight: bold;
+}
+
+.title img {
+	width: 100px;
+	transform: translate(10px, 15px);
+
+}
+
+.title img:hover {
+
+
+}
+
+.title p span {
+	color:red;
+	animation: color-animation 1s infinite linear alternate;
+}
+
+@keyframes color-animation {
+    0% {
+       color: blue;
+    }
+    50% {
+       color: pink;
+    } 
+    100% {
+       color: yellow;
+    } 
+ }
+
+.title:hover {
+	animation: lemonparty 3s infinite linear alternate;
+}
+
+header p {
+	font-family: 'Work Sans', sans-serif;
+	font-size:1.2rem;
+	display:block;
+
+}
+
+.intro-story {
+	margin:0 auto;
+	max-width: 600px;
+	font-size:1rem;
+	line-height: 1.5rem;
+	font-weight:300;
+	padding:20px;
+
+}
+
+.wrapper {
+	display: flex;
+}
+
+.wrapper section {
+	padding:15px;
+	line-height: 1.5rem;
+}
+
+.wrapper section.status {
+	width: 50%;
+
+}
+
+.wrapper section.status table {
+	width:100%;
+}
+
+.wrapper section.hobbies {
+	width: 50%;
+
+}
+
+.wrapper section.hobbies ul {
+	padding-left: 20px;
+	margin: 0;
+}
+
+
+
+.wrapper .wrapper-title {
+	
+	width: 100%;
+	text-align: center;
+	font-weight: 500;
+	font-weight: bold !important;
+	
+}
+
+.wrapper .wrapper-title td {
+	width: 50%;
+}
+
+
+hr {
+	border:none;
+	border: 1px solid #f0d7ab;
+
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+
+section table tr td:nth-child(1) {
+	font-weight: 400;
+}
+
+section table tr td:nth-child(2) {
+	font-weight: 200;
+}
+
+
+
+.hobbies ul .sub-list {
+	line-height: 1.5rem;
+	list-style-type: none;
+	font-weight: 200;
+}
+
+
+section.trust {
+	padding:15px;
+	line-height: 1.5rem;
+}
+
+section.trust h2 {
+	
+	font-family: 'Work Sans', sans-serif;
+	font-size:1.5rem;
+	color:blue;
+	font-weight: bold;
+}
+
+.trustwrapper {
+	display: flex;
+	padding: 15px;
+}
+
+section.story h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-size:1.5rem;
+	color:blue;
+	font-weight: bold;
+}
+
+.story .tldr h4 {
+font-family: 'Work Sans', sans-serif;
+	font-size:1rem;
+	color:blue;
+	font-weight: bold;
+}
+
+.story .tldr {
+margin:0 auto;
+line-height: 1.5rem;
+padding-top:20px;
+}
+
+
+footer {
+	margin:0 auto;
+	padding:50px;
+
+}
+
+footer table {
+	text-align: center;
+	width: 75%;
+	margin:0 auto !important;
+}
+
+footer table tr td:nth-child(2) {
+	font-family: 'Work Sans', sans-serif;
+	font-size:1.2rem;
+	color:blue;
+	font-weight: bold;
+}
+
+
+button {
+	background-color: blue;
+	min-width: 100px;
+	color:white;
+	border:none;
+	padding:10px;
+	border-radius:50px;
+	
+}
+
+
+button:hover {
+	animation: button-anim 1s infinite linear alternate;
+	background-color: blue;
+	min-width: 100px;
+	color:white;
+	border:none;
+	padding:10px;
+	cursor:pointer;
+	
+	
+}
+
+
+@keyframes button-anim {
+    0% {
+       background-color: blue;
+    }
+    50% {
+       background-color: pink;
+    } 
+    100% {
+       background-color: yellow;
+    } 
+ }
+
+
+
+
